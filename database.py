@@ -4,7 +4,7 @@ import pymongo
 #def adduser(update, context):
 #   db(update)
 def db(data):
-    DATABASE_NAME = '' #Your Database Name here.
+    DATABASE_NAME = 'Mongodb' #Your Database Name here.
     myclient = pymongo.MongoClient()
     database = myclient[DATABASE_NAME]
 
