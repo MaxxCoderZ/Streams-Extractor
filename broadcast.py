@@ -38,5 +38,3 @@ def broadcast(update , context ):
                                                   f"User Id = {chat_id}"
                                                   f"First name = {fname}"
                                                   f"Message = {update.message.reply_to_message.text}")
-
-Leave a comment
